@@ -4,7 +4,7 @@
 
 Start pack for Start.
 
-![](http://funkyimg.com/i/27xdm.jpg)
+![](http://funkyimg.com/i/27yzy.gif)
 
 ## Install
 
@@ -16,6 +16,9 @@ npm i -D start-start-pack
 
 ```js
 // package.json
+"devDependencies": {
+  "start-start-pack": "0.x.x"
+},
 "scripts": {
   "task": "babel-node node_modules/.bin/start start-start-pack",
   "build": "npm run task build",
