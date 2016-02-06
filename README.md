@@ -14,9 +14,9 @@ npm i -D start-start-preset
 
 ## Usage
 
-### Simple
-
 There is no even need to have `start` itself as a dependency.
+
+### Simple
 
 ```js
 // package.json
