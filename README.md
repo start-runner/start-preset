@@ -39,13 +39,12 @@ There is no even need to have `start` itself as a dependency.
 
 ```js
 // tasks.js
-import start from 'start';
-import logger from 'start-simple-logger';
+import start from 'start-start-preset';
 
 export * from 'start-start-preset';
 
 export function myTask() {
-    return start(logger())(
+    return start(
         ...
     );
 }
