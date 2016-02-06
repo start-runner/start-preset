@@ -14,6 +14,10 @@ npm i -D start-start-preset
 
 ## Usage
 
+### Simple
+
+There is not even need to have `start` itself as a dependency.
+
 ```js
 // package.json
 "devDependencies": {
@@ -28,5 +32,41 @@ npm i -D start-start-preset
   "tdd": "npm run task tdd",
   "cover": "npm run task cover",
   "travis": "npm run task travis"
+}
+```
+
+### Extend
+
+```js
+// tasks.js
+import start from 'start';
+import logger from 'start-simple-logger';
+
+export * from 'start-start-preset';
+
+export function myTask() {
+    return start(logger())(
+        ...
+    );
+}
+```
+
+<sup>* example is rely on [babel-plugin-transform-export-extensions](https://babeljs.io/docs/plugins/transform-export-extensions/) from [babel-preset-stage-1](https://babeljs.io/docs/plugins/preset-stage-1/)</sup>
+
+```js
+// package.json
+"devDependencies": {
+  "start-start-preset": "0.x.x"
+},
+"scripts": {
+  "task": "babel-node node_modules/.bin/start ./tasks",
+  "build": "npm run task build",
+  "dev": "npm run task dev",
+  "lint": "npm run task lint",
+  "test": "npm run task test",
+  "tdd": "npm run task tdd",
+  "cover": "npm run task cover",
+  "travis": "npm run task travis",
+  "my-task": "npm run task myTask"
 }
 ```
