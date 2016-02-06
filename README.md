@@ -16,7 +16,7 @@ npm i -D start-start-preset
 
 ### Simple
 
-There is not even need to have `start` itself as a dependency.
+There is no even need to have `start` itself as a dependency.
 
 ```js
 // package.json
