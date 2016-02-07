@@ -14,13 +14,12 @@ npm i -D start-start-preset
 
 ## Usage
 
-There is no even need to have `start` itself as a dependency.
-
 ### Simple
 
 ```js
 // package.json
 "devDependencies": {
+  "start": "3.x.x",
   "start-start-preset": "0.x.x"
 },
 "scripts": {
@@ -55,6 +54,7 @@ export function myTask() {
 ```js
 // package.json
 "devDependencies": {
+  "start": "3.x.x",
   "start-start-preset": "0.x.x"
 },
 "scripts": {
