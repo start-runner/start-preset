@@ -10,7 +10,7 @@
   "main": "build/index.js",
   "dependencies": {
     "start": "3.2.x",
-    "start-pretty-logger": "0.2.x",
+    "start-pretty-reporter": "0.2.x",
     "start-files": "0.2.x",
     "start-watch": "1.0.x",
     "start-clean": "1.0.x",
