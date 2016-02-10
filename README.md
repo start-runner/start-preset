@@ -41,7 +41,7 @@ npm start lint
 npm start test
 npm start tdd
 npm start cover
-npm start travis
+npm start ci
 ```
 
 ### Extend
@@ -52,7 +52,7 @@ import start from 'start-start-preset';
 
 export * from 'start-start-preset';
 
-export function myTask() {
+export function myTasksRunner() {
     return start(
         ...
     );
@@ -81,6 +81,6 @@ npm start lint
 npm start test
 npm start tdd
 npm start cover
-npm start travis
-npm start myTask
+npm start ci
+npm start myTasksRunner
 ```
