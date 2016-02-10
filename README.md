@@ -17,26 +17,31 @@ npm i -D start-start-preset
 
 ## Usage
 
-See [source tasks file](lib/index.js) for details.
+See [documentation](https://github.com/start-runner/start#readme) and [source tasks file](lib/index.js) for details.
 
 ### Simple
 
 ```js
 // package.json
 "devDependencies": {
-  "start": "3.x.x",
-  "start-start-preset": "0.x.x"
+  "start-babel-cli": "0.x.x",
+  "start-start-preset": "1.x.x"
 },
 "scripts": {
-  "task": "babel-node node_modules/.bin/start start-start-preset",
-  "build": "npm run task build",
-  "dev": "npm run task dev",
-  "lint": "npm run task lint",
-  "test": "npm run task test",
-  "tdd": "npm run task tdd",
-  "cover": "npm run task cover",
-  "travis": "npm run task travis"
+  "start": "start start-start-preset"
 }
+```
+
+Available commands:
+
+```
+npm start build
+npm start dev
+npm start lint
+npm start test
+npm start tdd
+npm start cover
+npm start travis
 ```
 
 ### Extend
@@ -59,18 +64,23 @@ export function myTask() {
 ```js
 // package.json
 "devDependencies": {
-  "start": "3.x.x",
-  "start-start-preset": "0.x.x"
+  "start-babel-cli": "0.x.x",
+  "start-start-preset": "1.x.x"
 },
 "scripts": {
-  "task": "babel-node node_modules/.bin/start ./tasks",
-  "build": "npm run task build",
-  "dev": "npm run task dev",
-  "lint": "npm run task lint",
-  "test": "npm run task test",
-  "tdd": "npm run task tdd",
-  "cover": "npm run task cover",
-  "travis": "npm run task travis",
-  "my-task": "npm run task myTask"
+  "start": "start ./tasks"
 }
+```
+
+Available commands:
+
+```
+npm start build
+npm start dev
+npm start lint
+npm start test
+npm start tdd
+npm start cover
+npm start travis
+npm start myTask
 ```
