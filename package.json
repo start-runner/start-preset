@@ -15,7 +15,7 @@
     "start-watch": "1.0.x",
     "start-clean": "1.0.x",
     "start-babel": "1.0.x",
-    "start-write": "0.1.x",
+    "start-write": "1.0.x",
     "start-eslint": "1.0.x",
     "start-tape": "0.1.x",
     "start-coverage": "1.0.x",
