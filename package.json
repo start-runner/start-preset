@@ -21,7 +21,7 @@
     "start-eslint": "1.x.x",
     "start-tape": "0.x.x",
     "start-coverage": "1.x.x",
-    "start-codecov": "0.x.x",
+    "start-codecov": "1.x.x",
     "tap-spec": "4.1.x",
     "babel-istanbul": "0.6.x"
   },
