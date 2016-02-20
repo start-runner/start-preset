@@ -40,7 +40,7 @@ npm start dev
 npm start lint
 npm start test
 npm start tdd
-npm start cover
+npm start coverage
 npm start ci
 ```
 
@@ -80,7 +80,7 @@ npm start dev
 npm start lint
 npm start test
 npm start tdd
-npm start cover
+npm start coverage
 npm start ci
 npm start myTasksRunner
 ```
