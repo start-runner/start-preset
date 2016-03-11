@@ -28,7 +28,7 @@ See [documentation](https://github.com/start-runner/start#readme) and [source ta
   "start-start-preset": "1.x.x"
 },
 "scripts": {
-  "start": "start start-start-preset"
+  "start": "start-runner start-start-preset"
 }
 ```
 
@@ -68,7 +68,7 @@ export function myTasksRunner() {
   "start-start-preset": "1.x.x"
 },
 "scripts": {
-  "start": "start ./tasks"
+  "start": "start-runner ./tasks"
 }
 ```
 
