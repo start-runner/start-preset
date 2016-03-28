@@ -23,7 +23,7 @@
     "start-istanbul": "1.x.x",
     "start-codecov": "1.x.x",
     "tap-spec": "4.1.x",
-    "babel-istanbul": "0.6.x"
+    "babel-istanbul": "0.7.x"
   },
   "devDependencies": {
     "start-babel-cli": "1.x.x",
