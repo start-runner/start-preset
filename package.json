@@ -18,7 +18,7 @@
     "start-read": "0.x.x",
     "start-babel": "2.x.x",
     "start-write": "1.x.x",
-    "start-eslint": "1.x.x",
+    "start-eslint": "2.x.x",
     "start-tape": "0.x.x",
     "start-istanbul": "1.x.x",
     "start-codecov": "1.x.x",
