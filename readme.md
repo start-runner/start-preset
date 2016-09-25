@@ -21,10 +21,6 @@ See [documentation](https://github.com/start-runner/start#readme) and [source ta
 
 ### Simple
 
-```
-npm i -D start-babel-cli start-start-preset
-```
-
 ```js
 // package.json
 "scripts": {
@@ -58,10 +54,6 @@ export const myTasksRunner = () => start(
 ```
 
 <sup>* example is rely on [babel-plugin-transform-export-extensions](https://babeljs.io/docs/plugins/transform-export-extensions/) from [babel-preset-stage-1](https://babeljs.io/docs/plugins/preset-stage-1/)</sup>
-
-```
-npm i -D start-babel-cli start-start-preset
-```
 
 ```js
 // package.json
