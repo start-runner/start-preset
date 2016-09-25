@@ -6,7 +6,7 @@
 
 Start preset for [Start](https://github.com/start-runner/start).
 
-![](http://funkyimg.com/i/27yzy.gif)
+![recursion](pic.gif)
 
 ## Install
 
@@ -20,14 +20,14 @@ See [documentation](https://github.com/start-runner/start#readme) and [source ta
 
 ### Simple
 
+```
+npm i -D start-babel-cli start-start-preset
+```
+
 ```js
 // package.json
-"devDependencies": {
-  "start-babel-cli": "0.x.x",
-  "start-start-preset": "1.x.x"
-},
 "scripts": {
-  "start": "start-runner start-start-preset"
+  "start": "start-runner -p start-start-preset"
 }
 ```
 
@@ -51,23 +51,21 @@ import start from 'start-start-preset';
 
 export * from 'start-start-preset';
 
-export function myTasksRunner() {
-    return start(
-        ...
-    );
-}
+export const myTasksRunner = () => start(
+    ...
+);
 ```
 
 <sup>* example is rely on [babel-plugin-transform-export-extensions](https://babeljs.io/docs/plugins/transform-export-extensions/) from [babel-preset-stage-1](https://babeljs.io/docs/plugins/preset-stage-1/)</sup>
 
+```
+npm i -D start-babel-cli start-start-preset
+```
+
 ```js
 // package.json
-"devDependencies": {
-  "start-babel-cli": "0.x.x",
-  "start-start-preset": "1.x.x"
-},
 "scripts": {
-  "start": "start-runner ./tasks"
+  "start": "start-runner -f ./tasks"
 }
 ```
 
