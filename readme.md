@@ -3,7 +3,6 @@
 [![npm](https://img.shields.io/npm/v/start-start-preset.svg?style=flat-square)](https://www.npmjs.com/package/start-start-preset)
 [![travis](http://img.shields.io/travis/start-runner/start-preset.svg?style=flat-square)](https://travis-ci.org/start-runner/start-preset)
 [![deps](https://img.shields.io/gemnasium/start-runner/start-preset.svg?style=flat-square)](https://gemnasium.com/start-runner/start-preset)
-[![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-00d06f.svg?style=flat-square)](https://gitter.im/start-runner/start)
 
 Start preset for [Start](https://github.com/start-runner/start).
 
