@@ -9,7 +9,6 @@ shallow_clone: true
 
 environment:
   matrix:
-    - nodejs_version: "0.12"
     - nodejs_version: "4"
     - nodejs_version: "5"
     - nodejs_version: "6"
