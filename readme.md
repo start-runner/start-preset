@@ -53,7 +53,7 @@ export const myTasksRunner = () => start(
 );
 ```
 
-<sup>* example is rely on [babel-plugin-transform-export-extensions](https://babeljs.io/docs/plugins/transform-export-extensions/) from [babel-preset-stage-1](https://babeljs.io/docs/plugins/preset-stage-1/)</sup>
+<sup>* example above relies on [babel-plugin-transform-export-extensions](https://babeljs.io/docs/plugins/transform-export-extensions/)</sup>
 
 ```js
 // package.json
