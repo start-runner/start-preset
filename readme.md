@@ -49,7 +49,7 @@ import start from 'start-start-preset';
 export * from 'start-start-preset';
 
 export const myTasksRunner = () => start(
-    ...
+    // ...
 );
 ```
 
@@ -58,7 +58,7 @@ export const myTasksRunner = () => start(
 ```js
 // package.json
 "scripts": {
-  "start": "start-runner -f ./tasks"
+  "start": "start-runner -f tasks.js"
 }
 ```
 
