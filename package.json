@@ -36,7 +36,7 @@
     "start-babel-cli": "^3.0.0"
   },
   "scripts": {
-    "start": "start-runner -f lib/",
+    "start": "start-runner --file lib/",
     "prepush": "npm start lint",
     "prepublish": "npm start build"
   },
