@@ -1,6 +1,7 @@
 node_modules/
 tmp/
 build/
+yarn.lock
 *.sublime-*
 *.log
 .DS_Store
