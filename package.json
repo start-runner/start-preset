@@ -37,8 +37,8 @@
   },
   "scripts": {
     "start": "start-runner --file lib/",
-    "prepush": "npm start lint",
-    "prepublish": "npm start build"
+    "prepush": "yarn start lint",
+    "prepublish": "yarn start build"
   },
   "engines": {
     "node": ">=4"
