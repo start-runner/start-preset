@@ -1,24 +1,16 @@
 # https://docs.travis-ci.com/user/customizing-the-build/
 
 sudo: false
-
 language: node_js
-
 node_js:
   - "4"
   - "6"
   - "7"
-
+cache: yarn
 branches:
   only:
     - master
     - /^greenkeeper-.*$/
-
 matrix:
   fast_finish: true
-
-before_install:
-  - npm install -g npm
-  - npm --version
-
-script: npm start lint
+script: yarn start lint
