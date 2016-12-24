@@ -14,7 +14,7 @@
   ],
   "main": "build/index.js",
   "dependencies": {
-    "start": "^4.0.1",
+    "start": "^5.0.0",
     "start-babel": "^2.1.1",
     "start-clean": "^1.0.2",
     "start-codecov": "^1.0.1",
